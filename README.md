@@ -4,6 +4,9 @@ Every AI-agent decision gets a **receipt** listing the facts it relied on. **Cod
 
 Prototype for a Langdock "Build Your Own Internship" application. Synthetic data only: Kesselfeld Antriebstechnik GmbH and all of its suppliers, people and IDs are invented.
 
+**Live demo (read-only):** https://decision-receipts-seven.vercel.app · **Loom walkthrough:** https://www.loom.com/share/b1d3c33a930f406aab11ebbf34091bd2
+The hosted copy runs in public demo mode (`DR_PUBLIC_DEMO=1`, see [docs/DEPLOY.md](docs/DEPLOY.md)): saved runs and a live-feed snapshot, no keys, no model calls, ingest off. Run it locally for the full app.
+
 ## Run it (no logins, no database)
 ```bash
 npm install

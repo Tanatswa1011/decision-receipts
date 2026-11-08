@@ -1,5 +1,7 @@
 # Deploy the public demo (Vercel)
 
+**Live:** https://decision-receipts-seven.vercel.app (deployed 8 Nov 2026 via Option A from the private repo Tanatswa1011/decision-receipts; checked: all 9 routes 200, stats match the Loom, ingest 403).
+
 The hosted copy is a **read-only demo** so reviewers can click through it safely. It is switched on by one environment variable:
 
 ```
