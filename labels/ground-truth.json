@@ -1,0 +1,422 @@
+[
+  {
+    "decision_id": "D-001",
+    "receipt_no": 1,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-002",
+    "receipt_no": 2,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-003",
+    "receipt_no": 3,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-004",
+    "receipt_no": 4,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-005",
+    "receipt_no": 5,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-006",
+    "receipt_no": 6,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-007",
+    "receipt_no": 7,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-008",
+    "receipt_no": 8,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-009",
+    "receipt_no": 9,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Edge: SUP-112 cert expires 2026-10-07, two days after approval. Still valid."
+  },
+  {
+    "decision_id": "D-010",
+    "receipt_no": 10,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-011",
+    "receipt_no": 11,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-012",
+    "receipt_no": 12,
+    "label_pass1": "bad",
+    "defect_type": "over_approval_limit",
+    "note": "EUR 18,500 approved by the agent without human sign-off; POL-APPROVAL-01 allows at most EUR 10,000. (Budget edge: amount equals the CC-220 available budget exactly, which on its own is fine.) Relabelled bad in the manual review, 8 Nov 2026."
+  },
+  {
+    "decision_id": "D-013",
+    "receipt_no": 13,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-014",
+    "receipt_no": 14,
+    "label_pass1": "bad",
+    "defect_type": "expired_certificate",
+    "note": "SUP-104 ISO 9001 cert QC-55120 expired 2026-02-07, eight months before approval."
+  },
+  {
+    "decision_id": "D-015",
+    "receipt_no": 15,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-016",
+    "receipt_no": 16,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Edge: amount written in German format (e.g. 8.402,75 EUR) in a free-text log."
+  },
+  {
+    "decision_id": "D-017",
+    "receipt_no": 17,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-018",
+    "receipt_no": 18,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "First half of the split completed by #19. On its own this approval is within policy."
+  },
+  {
+    "decision_id": "D-019",
+    "receipt_no": 19,
+    "label_pass1": "bad",
+    "defect_type": "split_order",
+    "note": "Completes a split with receipt #18 (PO-4518, same supplier and cost center, about 32 hours earlier): EUR 19,550 combined, above the EUR 10,000 single-approval limit."
+  },
+  {
+    "decision_id": "D-020",
+    "receipt_no": 20,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-021",
+    "receipt_no": 21,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-022",
+    "receipt_no": 22,
+    "label_pass1": "bad",
+    "defect_type": "nonexistent_contract",
+    "note": "Cites CTR-2026-099, which does not exist in the contract repository."
+  },
+  {
+    "decision_id": "D-023",
+    "receipt_no": 23,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-024",
+    "receipt_no": 24,
+    "label_pass1": "bad",
+    "defect_type": "amount_mismatch",
+    "note": "Agent states EUR 12,750; ERP PO is EUR 17,250 (digits transposed)."
+  },
+  {
+    "decision_id": "D-025",
+    "receipt_no": 25,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-026",
+    "receipt_no": 26,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Correct rejection: SUP-107 cert expired."
+  },
+  {
+    "decision_id": "D-027",
+    "receipt_no": 27,
+    "label_pass1": "bad",
+    "defect_type": "budget_exceeded",
+    "note": "CC-220 has EUR 18,500 available; order is EUR 31,000."
+  },
+  {
+    "decision_id": "D-028",
+    "receipt_no": 28,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-029",
+    "receipt_no": 29,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-030",
+    "receipt_no": 30,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-031",
+    "receipt_no": 31,
+    "label_pass1": "bad",
+    "defect_type": "expired_certificate",
+    "note": "SUP-109 cert QC-38804 expired 2026-08-16, two months before approval. Free-text log only."
+  },
+  {
+    "decision_id": "D-032",
+    "receipt_no": 32,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-033",
+    "receipt_no": 33,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Edge: contract CTR-2025-040 valid until 2026-10-17 inclusive, same day as approval. Valid. (SUP-112 cert has expired by now, so the agent makes no ISO claim.)"
+  },
+  {
+    "decision_id": "D-034",
+    "receipt_no": 34,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-035",
+    "receipt_no": 35,
+    "label_pass1": "bad",
+    "defect_type": "nonexistent_contract",
+    "note": "Cites CTR-2026-061, which does not exist. Free-text log only."
+  },
+  {
+    "decision_id": "D-036",
+    "receipt_no": 36,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-037",
+    "receipt_no": 37,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-038",
+    "receipt_no": 38,
+    "label_pass1": "bad",
+    "defect_type": "unit_price_mismatch",
+    "note": "Agent says EUR 3.10/unit matches CTR-2026-007; contract price is EUR 2.60. Free-text log only."
+  },
+  {
+    "decision_id": "D-039",
+    "receipt_no": 39,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-040",
+    "receipt_no": 40,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-041",
+    "receipt_no": 41,
+    "label_pass1": "bad",
+    "defect_type": "budget_exceeded",
+    "note": "CC-520 has EUR 12,000 available; order is EUR 14,200. Free-text log only."
+  },
+  {
+    "decision_id": "D-042",
+    "receipt_no": 42,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-043",
+    "receipt_no": 43,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Correct rejection: SUP-109 cert expired."
+  },
+  {
+    "decision_id": "D-044",
+    "receipt_no": 44,
+    "label_pass1": "bad",
+    "defect_type": "expired_certificate",
+    "note": "SUP-107 cert QC-37761 expired 2026-05-10."
+  },
+  {
+    "decision_id": "D-045",
+    "receipt_no": 45,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-046",
+    "receipt_no": 46,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-047",
+    "receipt_no": 47,
+    "label_pass1": "bad",
+    "defect_type": "expired_contract",
+    "note": "CTR-2025-036 ended 2026-09-30; approval relies on its pricing on 2026-10-24."
+  },
+  {
+    "decision_id": "D-048",
+    "receipt_no": 48,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-049",
+    "receipt_no": 49,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-050",
+    "receipt_no": 50,
+    "label_pass1": "bad",
+    "defect_type": "amount_mismatch",
+    "note": "Agent states EUR 4,950; ERP PO is EUR 9,450."
+  },
+  {
+    "decision_id": "D-051",
+    "receipt_no": 51,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-052",
+    "receipt_no": 52,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-053",
+    "receipt_no": 53,
+    "label_pass1": "bad",
+    "defect_type": "certificate_not_on_file",
+    "note": "Agent claims SUP-110 is ISO 9001 certified; supplier DB has no certificate at all."
+  },
+  {
+    "decision_id": "D-054",
+    "receipt_no": 54,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-055",
+    "receipt_no": 55,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Correct rejection: exceeds CC-220 budget."
+  },
+  {
+    "decision_id": "D-056",
+    "receipt_no": 56,
+    "label_pass1": "bad",
+    "defect_type": "budget_exceeded",
+    "note": "CC-220 has EUR 18,500 available; order is EUR 22,400."
+  },
+  {
+    "decision_id": "D-057",
+    "receipt_no": 57,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-058",
+    "receipt_no": 58,
+    "label_pass1": "bad",
+    "defect_type": "expired_certificate",
+    "note": "SUP-111 cert QC-38125 expired 2026-10-27, three days before approval."
+  },
+  {
+    "decision_id": "D-059",
+    "receipt_no": 59,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  },
+  {
+    "decision_id": "D-060",
+    "receipt_no": 60,
+    "label_pass1": "good",
+    "defect_type": null,
+    "note": "Clean decision: all stated facts match the systems of record."
+  }
+]

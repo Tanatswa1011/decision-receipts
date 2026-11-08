@@ -1,0 +1,32 @@
+{
+  "name": "decision-receipts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1 -p 3100",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1 -p 3100",
+    "typecheck": "tsc --noEmit",
+    "data:generate": "tsx scripts/generate-dataset.ts",
+    "run:offline": "tsx scripts/run-pipeline.ts --mode=offline",
+    "run:llm": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/run-pipeline.ts --mode=llm",
+    "eval": "tsx scripts/evaluate.ts",
+    "test": "tsx scripts/test-verifier.ts && tsx scripts/test-live.ts",
+    "agent:replay": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/agent-replay.ts",
+    "agent:live": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/agent-live.ts",
+    "demo:prep": "tsx --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/demo-prep.ts"
+  },
+  "dependencies": {
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tsx": "^4.23.9",
+    "typescript": "^5"
+  }
+}

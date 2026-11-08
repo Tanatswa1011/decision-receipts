@@ -1,0 +1,986 @@
+[
+  {
+    "id": "D-001",
+    "receipt_no": 1,
+    "timestamp": "2026-10-01T13:56:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4501 for €6,050.00 to Tervola Electronics (SUP-106), cost center CC-310. Quality check passed: ISO 9001 cert QC-42290 is valid. CC-310 has sufficient budget for this order.",
+    "tool_call": {
+      "po_id": "PO-4501",
+      "supplier_id": "SUP-106",
+      "amount_eur": 6050,
+      "cost_center": "CC-310",
+      "contract_id": null,
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-002",
+    "receipt_no": 2,
+    "timestamp": "2026-10-01T09:23:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4502 for €8,900.00 to Pemberly Seals Ltd (SUP-102), cost center CC-410. Quality check passed: ISO 9001 cert QC-41552 is valid. Covered by frame contract CTR-2026-007. Budget available in CC-410.",
+    "tool_call": {
+      "po_id": "PO-4502",
+      "supplier_id": "SUP-102",
+      "amount_eur": 8900,
+      "cost_center": "CC-410",
+      "contract_id": "CTR-2026-007",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-003",
+    "receipt_no": 3,
+    "timestamp": "2026-10-02T10:17:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4503 for €8,600.00 to Weidmoor Kunststoff GmbH (SUP-105), cost center CC-310. Supplier is ISO 9001 certified (certificate QC-40211). Terms per contract CTR-2026-015, which is in force. Budget available in CC-310. Lead time is acceptable for production planning.",
+    "tool_call": {
+      "po_id": "PO-4503",
+      "supplier_id": "SUP-105",
+      "amount_eur": 8600,
+      "cost_center": "CC-310",
+      "contract_id": "CTR-2026-015",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-004",
+    "receipt_no": 4,
+    "timestamp": "2026-10-02T12:32:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4504 for €9,100.00 to Pemberly Seals Ltd (SUP-102), cost center CC-220. Budget available in CC-220.",
+    "tool_call": {
+      "po_id": "PO-4504",
+      "supplier_id": "SUP-102",
+      "amount_eur": 9100,
+      "cost_center": "CC-220",
+      "contract_id": null,
+      "iso_certified": null,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-005",
+    "receipt_no": 5,
+    "timestamp": "2026-10-03T13:24:00Z",
+    "agent": "procure-agent v1.8 (legacy, free-text log)",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4505 for €6,500.00 to Lindqvar Metallwerk (SUP-101), cost center CC-410. Supplier is ISO 9001 certified (certificate QC-41007). Terms per contract CTR-2026-004, which is in force. Budget available in CC-410.",
+    "tool_call": null
+  },
+  {
+    "id": "D-006",
+    "receipt_no": 6,
+    "timestamp": "2026-10-03T12:20:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4506 for €1,500.00 to Rautio Hydraulics Oy (SUP-103), cost center CC-110. Supplier is ISO 9001 certified (certificate QC-39810). Terms per contract CTR-2026-011, which is in force. CC-110 has sufficient budget for this order.",
+    "tool_call": {
+      "po_id": "PO-4506",
+      "supplier_id": "SUP-103",
+      "amount_eur": 1500,
+      "cost_center": "CC-110",
+      "contract_id": "CTR-2026-011",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-007",
+    "receipt_no": 7,
+    "timestamp": "2026-10-04T09:52:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4507 for €6,900.00 to Ilvento Coatings S.r.l. (SUP-108), cost center CC-310. Terms per contract CTR-2026-022, which is in force. Budget available in CC-310.",
+    "tool_call": {
+      "po_id": "PO-4507",
+      "supplier_id": "SUP-108",
+      "amount_eur": 6900,
+      "cost_center": "CC-310",
+      "contract_id": "CTR-2026-022",
+      "iso_certified": null,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-008",
+    "receipt_no": 8,
+    "timestamp": "2026-10-04T14:04:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "release_payment",
+    "agent_log_status": "success",
+    "rationale": "Paid PO-4508 for €4,100.00 to Rautio Hydraulics Oy (SUP-103), cost center CC-310. Rautio Hydraulics Oy holds a valid ISO 9001 certificate (QC-39810). Terms per contract CTR-2026-011, which is in force.",
+    "tool_call": {
+      "po_id": "PO-4508",
+      "supplier_id": "SUP-103",
+      "amount_eur": 4100,
+      "cost_center": "CC-310",
+      "contract_id": "CTR-2026-011",
+      "iso_certified": true,
+      "budget_available": null
+    }
+  },
+  {
+    "id": "D-009",
+    "receipt_no": 9,
+    "timestamp": "2026-10-05T10:36:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4509 for €3,560.00 to Fenwright Tools Ltd (SUP-112), cost center CC-220. Quality check passed: ISO 9001 cert QC-38000 is valid. Budget available in CC-220.",
+    "tool_call": {
+      "po_id": "PO-4509",
+      "supplier_id": "SUP-112",
+      "amount_eur": 3560,
+      "cost_center": "CC-220",
+      "contract_id": null,
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-010",
+    "receipt_no": 10,
+    "timestamp": "2026-10-05T09:33:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4510 for €3,136.00 to Rautio Hydraulics Oy (SUP-103), cost center CC-310. Supplier is ISO 9001 certified (certificate QC-39810). Pricing follows frame contract CTR-2026-011 at €64.00 per unit for 49 units. CC-310 has sufficient budget for this order. Supplier has a reliable delivery history.",
+    "tool_call": {
+      "po_id": "PO-4510",
+      "supplier_id": "SUP-103",
+      "amount_eur": 3136,
+      "cost_center": "CC-310",
+      "contract_id": "CTR-2026-011",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-011",
+    "receipt_no": 11,
+    "timestamp": "2026-10-06T08:00:00Z",
+    "agent": "procure-agent v1.8 (legacy, free-text log)",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4511 for €9,450.00 to Ilvento Coatings S.r.l. (SUP-108), cost center CC-110. Pricing follows frame contract CTR-2026-022 at €31.50 per unit for 300 units. Within the Q4 budget of CC-110.",
+    "tool_call": null
+  },
+  {
+    "id": "D-012",
+    "receipt_no": 12,
+    "timestamp": "2026-10-06T12:40:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4512 for €18,500.00 to Pemberly Seals Ltd (SUP-102), cost center CC-220. Supplier is ISO 9001 certified (certificate QC-41552). Covered by frame contract CTR-2026-007. CC-220 has sufficient budget for this order.",
+    "tool_call": {
+      "po_id": "PO-4512",
+      "supplier_id": "SUP-102",
+      "amount_eur": 18500,
+      "cost_center": "CC-220",
+      "contract_id": "CTR-2026-007",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-013",
+    "receipt_no": 13,
+    "timestamp": "2026-10-07T16:11:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4513 for €6,784.00 to Rautio Hydraulics Oy (SUP-103), cost center CC-110. Supplier is ISO 9001 certified (certificate QC-39810). Pricing follows frame contract CTR-2026-011 at €64.00 per unit for 106 units. Budget available in CC-110.",
+    "tool_call": {
+      "po_id": "PO-4513",
+      "supplier_id": "SUP-103",
+      "amount_eur": 6784,
+      "cost_center": "CC-110",
+      "contract_id": "CTR-2026-011",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-014",
+    "receipt_no": 14,
+    "timestamp": "2026-10-07T14:06:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4514 for €8,400.00 to Castellan Bearings S.p.A. (SUP-104), cost center CC-410. Quality check passed: ISO 9001 cert QC-55120 is valid. Pricing follows frame contract CTR-2026-031 at €42.00 per unit for 200 units. Within the Q4 budget of CC-410. Requester confirmed the need by email.",
+    "tool_call": {
+      "po_id": "PO-4514",
+      "supplier_id": "SUP-104",
+      "amount_eur": 8400,
+      "cost_center": "CC-410",
+      "contract_id": "CTR-2026-031",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-015",
+    "receipt_no": 15,
+    "timestamp": "2026-10-08T09:09:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4515 for €2,800.00 to Tervola Electronics (SUP-106), cost center CC-310. Pricing follows frame contract CTR-2026-018 at €112.00 per unit for 25 units. Within the Q4 budget of CC-310.",
+    "tool_call": {
+      "po_id": "PO-4515",
+      "supplier_id": "SUP-106",
+      "amount_eur": 2800,
+      "cost_center": "CC-310",
+      "contract_id": "CTR-2026-018",
+      "iso_certified": null,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-016",
+    "receipt_no": 16,
+    "timestamp": "2026-10-08T11:30:00Z",
+    "agent": "procure-agent v1.8 (legacy, free-text log)",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4516 for 8.400,00 EUR to Weidmoor Kunststoff GmbH (SUP-105), cost center CC-310. Supplier is ISO 9001 certified (certificate QC-40211). Covered by frame contract CTR-2026-015. Budget available in CC-310.",
+    "tool_call": null
+  },
+  {
+    "id": "D-017",
+    "receipt_no": 17,
+    "timestamp": "2026-10-09T08:35:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4517 for €3,099.20 to Pemberly Seals Ltd (SUP-102), cost center CC-410. Pemberly Seals Ltd holds a valid ISO 9001 certificate (QC-41552). Pricing follows frame contract CTR-2026-007 at €2.60 per unit for 1192 units. Within the Q4 budget of CC-410.",
+    "tool_call": {
+      "po_id": "PO-4517",
+      "supplier_id": "SUP-102",
+      "amount_eur": 3099.2,
+      "cost_center": "CC-410",
+      "contract_id": "CTR-2026-007",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-018",
+    "receipt_no": 18,
+    "timestamp": "2026-10-09T09:05:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4518 for €9,800.00 to Tervola Electronics (SUP-106), cost center CC-410. Supplier is ISO 9001 certified (certificate QC-42290). Terms per contract CTR-2026-018, which is in force. Budget available in CC-410.",
+    "tool_call": {
+      "po_id": "PO-4518",
+      "supplier_id": "SUP-106",
+      "amount_eur": 9800,
+      "cost_center": "CC-410",
+      "contract_id": "CTR-2026-018",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-019",
+    "receipt_no": 19,
+    "timestamp": "2026-10-10T16:40:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4519 for €9,750.00 to Tervola Electronics (SUP-106), cost center CC-410. Supplier is ISO 9001 certified (certificate QC-42290). Terms per contract CTR-2026-018, which is in force. CC-410 has sufficient budget for this order.",
+    "tool_call": {
+      "po_id": "PO-4519",
+      "supplier_id": "SUP-106",
+      "amount_eur": 9750,
+      "cost_center": "CC-410",
+      "contract_id": "CTR-2026-018",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-020",
+    "receipt_no": 20,
+    "timestamp": "2026-10-10T10:33:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4520 for €3,150.00 to Rautio Hydraulics Oy (SUP-103), cost center CC-310. Rautio Hydraulics Oy holds a valid ISO 9001 certificate (QC-39810). Terms per contract CTR-2026-011, which is in force. Budget available in CC-310. Supplier has a reliable delivery history.",
+    "tool_call": {
+      "po_id": "PO-4520",
+      "supplier_id": "SUP-103",
+      "amount_eur": 3150,
+      "cost_center": "CC-310",
+      "contract_id": "CTR-2026-011",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-021",
+    "receipt_no": 21,
+    "timestamp": "2026-10-11T13:46:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "release_payment",
+    "agent_log_status": "success",
+    "rationale": "Paid PO-4521 for €3,244.50 to Ilvento Coatings S.r.l. (SUP-108), cost center CC-310. Supplier is ISO 9001 certified (certificate QC-43018). Pricing follows frame contract CTR-2026-022 at €31.50 per unit for 103 units.",
+    "tool_call": {
+      "po_id": "PO-4521",
+      "supplier_id": "SUP-108",
+      "amount_eur": 3244.5,
+      "cost_center": "CC-310",
+      "contract_id": "CTR-2026-022",
+      "iso_certified": true,
+      "budget_available": null
+    }
+  },
+  {
+    "id": "D-022",
+    "receipt_no": 22,
+    "timestamp": "2026-10-11T13:00:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4522 for €6,900.00 to Rautio Hydraulics Oy (SUP-103), cost center CC-110. Rautio Hydraulics Oy holds a valid ISO 9001 certificate (QC-39810). Terms per contract CTR-2026-099, which is in force. Within the Q4 budget of CC-110.",
+    "tool_call": {
+      "po_id": "PO-4522",
+      "supplier_id": "SUP-103",
+      "amount_eur": 6900,
+      "cost_center": "CC-110",
+      "contract_id": "CTR-2026-099",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-023",
+    "receipt_no": 23,
+    "timestamp": "2026-10-12T11:51:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4523 for €4,950.00 to Ilvento Coatings S.r.l. (SUP-108), cost center CC-310. Quality check passed: ISO 9001 cert QC-43018 is valid. Covered by frame contract CTR-2026-022. Within the Q4 budget of CC-310.",
+    "tool_call": {
+      "po_id": "PO-4523",
+      "supplier_id": "SUP-108",
+      "amount_eur": 4950,
+      "cost_center": "CC-310",
+      "contract_id": "CTR-2026-022",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-024",
+    "receipt_no": 24,
+    "timestamp": "2026-10-12T14:12:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4524 for €12,750.00 to Lindqvar Metallwerk (SUP-101), cost center CC-410. Quality check passed: ISO 9001 cert QC-41007 is valid. Terms per contract CTR-2026-004, which is in force. Budget available in CC-410.",
+    "tool_call": {
+      "po_id": "PO-4524",
+      "supplier_id": "SUP-101",
+      "amount_eur": 12750,
+      "cost_center": "CC-410",
+      "contract_id": "CTR-2026-004",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-025",
+    "receipt_no": 25,
+    "timestamp": "2026-10-13T12:20:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4525 for €2,400.00 to Ilvento Coatings S.r.l. (SUP-108), cost center CC-110. Supplier is ISO 9001 certified (certificate QC-43018). Terms per contract CTR-2026-022, which is in force. CC-110 has sufficient budget for this order.",
+    "tool_call": {
+      "po_id": "PO-4525",
+      "supplier_id": "SUP-108",
+      "amount_eur": 2400,
+      "cost_center": "CC-110",
+      "contract_id": "CTR-2026-022",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-026",
+    "receipt_no": 26,
+    "timestamp": "2026-10-13T13:44:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "reject_po",
+    "agent_log_status": "success",
+    "rationale": "Rejected PO-4526 (€5,200.00) from Bramcote Fasteners Ltd (SUP-107). The supplier's ISO 9001 certificate QC-37761 has expired, so the order cannot be placed.",
+    "tool_call": {
+      "po_id": "PO-4526",
+      "supplier_id": "SUP-107",
+      "amount_eur": 5200,
+      "cost_center": "CC-110",
+      "contract_id": null,
+      "iso_certified": false,
+      "budget_available": null
+    }
+  },
+  {
+    "id": "D-027",
+    "receipt_no": 27,
+    "timestamp": "2026-10-14T12:16:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4527 for €31,000.00 to Pemberly Seals Ltd (SUP-102), cost center CC-220. Supplier is ISO 9001 certified (certificate QC-41552). Terms per contract CTR-2026-007, which is in force. CC-220 has sufficient budget for this order.",
+    "tool_call": {
+      "po_id": "PO-4527",
+      "supplier_id": "SUP-102",
+      "amount_eur": 31000,
+      "cost_center": "CC-220",
+      "contract_id": "CTR-2026-007",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-028",
+    "receipt_no": 28,
+    "timestamp": "2026-10-14T15:31:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4528 for €4,650.00 to Rautio Hydraulics Oy (SUP-103), cost center CC-310. Supplier is ISO 9001 certified (certificate QC-39810). Within the Q4 budget of CC-310. Lead time is acceptable for production planning.",
+    "tool_call": {
+      "po_id": "PO-4528",
+      "supplier_id": "SUP-103",
+      "amount_eur": 4650,
+      "cost_center": "CC-310",
+      "contract_id": null,
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-029",
+    "receipt_no": 29,
+    "timestamp": "2026-10-15T10:10:00Z",
+    "agent": "procure-agent v1.8 (legacy, free-text log)",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4529 for €2,249.00 to Pemberly Seals Ltd (SUP-102), cost center CC-410. Quality check passed: ISO 9001 cert QC-41552 is valid. Pricing follows frame contract CTR-2026-007 at €2.60 per unit for 865 units. CC-410 has sufficient budget for this order.",
+    "tool_call": null
+  },
+  {
+    "id": "D-030",
+    "receipt_no": 30,
+    "timestamp": "2026-10-15T16:39:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4530 for €5,100.00 to Rautio Hydraulics Oy (SUP-103), cost center CC-110. Rautio Hydraulics Oy holds a valid ISO 9001 certificate (QC-39810). Terms per contract CTR-2026-011, which is in force. Within the Q4 budget of CC-110.",
+    "tool_call": {
+      "po_id": "PO-4530",
+      "supplier_id": "SUP-103",
+      "amount_eur": 5100,
+      "cost_center": "CC-110",
+      "contract_id": "CTR-2026-011",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-031",
+    "receipt_no": 31,
+    "timestamp": "2026-10-16T15:27:00Z",
+    "agent": "procure-agent v1.8 (legacy, free-text log)",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4531 for €5,600.00 to Marhaus Antriebe GmbH (SUP-109), cost center CC-110. Supplier is ISO 9001 certified (certificate QC-38804). Budget available in CC-110.",
+    "tool_call": null
+  },
+  {
+    "id": "D-032",
+    "receipt_no": 32,
+    "timestamp": "2026-10-17T11:47:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4532 for €5,759.20 to Lindqvar Metallwerk (SUP-101), cost center CC-410. Lindqvar Metallwerk holds a valid ISO 9001 certificate (QC-41007). Pricing follows frame contract CTR-2026-004 at €18.40 per unit for 313 units. Budget available in CC-410.",
+    "tool_call": {
+      "po_id": "PO-4532",
+      "supplier_id": "SUP-101",
+      "amount_eur": 5759.2,
+      "cost_center": "CC-410",
+      "contract_id": "CTR-2026-004",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-033",
+    "receipt_no": 33,
+    "timestamp": "2026-10-17T08:01:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4533 for €2,670.00 to Fenwright Tools Ltd (SUP-112), cost center CC-220. Pricing follows frame contract CTR-2025-040 at €89.00 per unit for 30 units. Budget available in CC-220.",
+    "tool_call": {
+      "po_id": "PO-4533",
+      "supplier_id": "SUP-112",
+      "amount_eur": 2670,
+      "cost_center": "CC-220",
+      "contract_id": "CTR-2025-040",
+      "iso_certified": null,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-034",
+    "receipt_no": 34,
+    "timestamp": "2026-10-18T08:55:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "release_payment",
+    "agent_log_status": "success",
+    "rationale": "Released payment for PO-4534 for €8,700.00 to Pemberly Seals Ltd (SUP-102), cost center CC-220. Supplier is ISO 9001 certified (certificate QC-41552).",
+    "tool_call": {
+      "po_id": "PO-4534",
+      "supplier_id": "SUP-102",
+      "amount_eur": 8700,
+      "cost_center": "CC-220",
+      "contract_id": null,
+      "iso_certified": true,
+      "budget_available": null
+    }
+  },
+  {
+    "id": "D-035",
+    "receipt_no": 35,
+    "timestamp": "2026-10-18T12:49:00Z",
+    "agent": "procure-agent v1.8 (legacy, free-text log)",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4535 for €4,350.00 to Weidmoor Kunststoff GmbH (SUP-105), cost center CC-310. Weidmoor Kunststoff GmbH holds a valid ISO 9001 certificate (QC-40211). Terms per contract CTR-2026-061, which is in force. CC-310 has sufficient budget for this order.",
+    "tool_call": null
+  },
+  {
+    "id": "D-036",
+    "receipt_no": 36,
+    "timestamp": "2026-10-19T16:09:00Z",
+    "agent": "procure-agent v1.8 (legacy, free-text log)",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4536 for €8,400.00 to Rautio Hydraulics Oy (SUP-103), cost center CC-310. Rautio Hydraulics Oy holds a valid ISO 9001 certificate (QC-39810). Covered by frame contract CTR-2026-011. CC-310 has sufficient budget for this order.",
+    "tool_call": null
+  },
+  {
+    "id": "D-037",
+    "receipt_no": 37,
+    "timestamp": "2026-10-19T15:14:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4537 for €2,950.00 to Ilvento Coatings S.r.l. (SUP-108), cost center CC-310. CC-310 has sufficient budget for this order. Supplier has a reliable delivery history.",
+    "tool_call": {
+      "po_id": "PO-4537",
+      "supplier_id": "SUP-108",
+      "amount_eur": 2950,
+      "cost_center": "CC-310",
+      "contract_id": null,
+      "iso_certified": null,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-038",
+    "receipt_no": 38,
+    "timestamp": "2026-10-20T16:53:00Z",
+    "agent": "procure-agent v1.8 (legacy, free-text log)",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4538 for €7,750.00 to Pemberly Seals Ltd (SUP-102), cost center CC-410. Quality check passed: ISO 9001 cert QC-41552 is valid. Pricing follows frame contract CTR-2026-007 at €3.10 per unit for 2500 units. Within the Q4 budget of CC-410.",
+    "tool_call": null
+  },
+  {
+    "id": "D-039",
+    "receipt_no": 39,
+    "timestamp": "2026-10-20T09:26:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4539 for €9,300.00 to Lindqvar Metallwerk (SUP-101), cost center CC-110. Supplier is ISO 9001 certified (certificate QC-41007). Covered by frame contract CTR-2026-004. CC-110 has sufficient budget for this order.",
+    "tool_call": {
+      "po_id": "PO-4539",
+      "supplier_id": "SUP-101",
+      "amount_eur": 9300,
+      "cost_center": "CC-110",
+      "contract_id": "CTR-2026-004",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-040",
+    "receipt_no": 40,
+    "timestamp": "2026-10-21T09:09:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4540 for €6,550.00 to Tervola Electronics (SUP-106), cost center CC-410. Supplier is ISO 9001 certified (certificate QC-42290). Terms per contract CTR-2026-018, which is in force. Within the Q4 budget of CC-410.",
+    "tool_call": {
+      "po_id": "PO-4540",
+      "supplier_id": "SUP-106",
+      "amount_eur": 6550,
+      "cost_center": "CC-410",
+      "contract_id": "CTR-2026-018",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-041",
+    "receipt_no": 41,
+    "timestamp": "2026-10-21T16:06:00Z",
+    "agent": "procure-agent v1.8 (legacy, free-text log)",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4541 for €14,200.00 to Quellbrunn Elektro KG (SUP-110), cost center CC-520. Covered by frame contract CTR-2026-027. CC-520 has sufficient budget for this order.",
+    "tool_call": null
+  },
+  {
+    "id": "D-042",
+    "receipt_no": 42,
+    "timestamp": "2026-10-22T12:40:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4542 for €2,304.00 to Rautio Hydraulics Oy (SUP-103), cost center CC-110. Rautio Hydraulics Oy holds a valid ISO 9001 certificate (QC-39810). Pricing follows frame contract CTR-2026-011 at €64.00 per unit for 36 units. Budget available in CC-110.",
+    "tool_call": {
+      "po_id": "PO-4542",
+      "supplier_id": "SUP-103",
+      "amount_eur": 2304,
+      "cost_center": "CC-110",
+      "contract_id": "CTR-2026-011",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-043",
+    "receipt_no": 43,
+    "timestamp": "2026-10-22T14:06:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "reject_po",
+    "agent_log_status": "success",
+    "rationale": "Rejected PO-4543 (€7,300.00) from Marhaus Antriebe GmbH (SUP-109). The supplier's ISO 9001 certificate QC-38804 has expired, so the order cannot be placed.",
+    "tool_call": {
+      "po_id": "PO-4543",
+      "supplier_id": "SUP-109",
+      "amount_eur": 7300,
+      "cost_center": "CC-310",
+      "contract_id": null,
+      "iso_certified": false,
+      "budget_available": null
+    }
+  },
+  {
+    "id": "D-044",
+    "receipt_no": 44,
+    "timestamp": "2026-10-23T12:50:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4544 for €46,200.00 to Bramcote Fasteners Ltd (SUP-107), cost center CC-310. Supplier is ISO 9001 certified (certificate QC-37761). CC-310 has sufficient budget for this order. Supplier has a reliable delivery history.",
+    "tool_call": {
+      "po_id": "PO-4544",
+      "supplier_id": "SUP-107",
+      "amount_eur": 46200,
+      "cost_center": "CC-310",
+      "contract_id": null,
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-045",
+    "receipt_no": 45,
+    "timestamp": "2026-10-23T11:59:00Z",
+    "agent": "procure-agent v1.8 (legacy, free-text log)",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4545 for €1,354.50 to Ilvento Coatings S.r.l. (SUP-108), cost center CC-310. Ilvento Coatings S.r.l. holds a valid ISO 9001 certificate (QC-43018). Pricing follows frame contract CTR-2026-022 at €31.50 per unit for 43 units. Budget available in CC-310.",
+    "tool_call": null
+  },
+  {
+    "id": "D-046",
+    "receipt_no": 46,
+    "timestamp": "2026-10-24T16:42:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4546 for €5,800.60 to Pemberly Seals Ltd (SUP-102), cost center CC-410. Pricing follows frame contract CTR-2026-007 at €2.60 per unit for 2231 units. CC-410 has sufficient budget for this order.",
+    "tool_call": {
+      "po_id": "PO-4546",
+      "supplier_id": "SUP-102",
+      "amount_eur": 5800.6,
+      "cost_center": "CC-410",
+      "contract_id": "CTR-2026-007",
+      "iso_certified": null,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-047",
+    "receipt_no": 47,
+    "timestamp": "2026-10-24T15:41:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4547 for €6,150.00 to Saxwold Cables Ltd (SUP-111), cost center CC-410. Quality check passed: ISO 9001 cert QC-38125 is valid. Pricing follows frame contract CTR-2025-036 at €4.10 per unit for 1500 units. CC-410 has sufficient budget for this order.",
+    "tool_call": {
+      "po_id": "PO-4547",
+      "supplier_id": "SUP-111",
+      "amount_eur": 6150,
+      "cost_center": "CC-410",
+      "contract_id": "CTR-2025-036",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-048",
+    "receipt_no": 48,
+    "timestamp": "2026-10-25T12:13:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "release_payment",
+    "agent_log_status": "success",
+    "rationale": "Paid PO-4548 for €9,500.00 to Weidmoor Kunststoff GmbH (SUP-105), cost center CC-310. Covered by frame contract CTR-2026-015.",
+    "tool_call": {
+      "po_id": "PO-4548",
+      "supplier_id": "SUP-105",
+      "amount_eur": 9500,
+      "cost_center": "CC-310",
+      "contract_id": "CTR-2026-015",
+      "iso_certified": null,
+      "budget_available": null
+    }
+  },
+  {
+    "id": "D-049",
+    "receipt_no": 49,
+    "timestamp": "2026-10-25T16:54:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4549 for €4,200.00 to Lindqvar Metallwerk (SUP-101), cost center CC-110. Quality check passed: ISO 9001 cert QC-41007 is valid. CC-110 has sufficient budget for this order. Supplier has a reliable delivery history.",
+    "tool_call": {
+      "po_id": "PO-4549",
+      "supplier_id": "SUP-101",
+      "amount_eur": 4200,
+      "cost_center": "CC-110",
+      "contract_id": null,
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-050",
+    "receipt_no": 50,
+    "timestamp": "2026-10-26T11:15:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4550 for €4,950.00 to Ilvento Coatings S.r.l. (SUP-108), cost center CC-110. Quality check passed: ISO 9001 cert QC-43018 is valid. Covered by frame contract CTR-2026-022. Within the Q4 budget of CC-110.",
+    "tool_call": {
+      "po_id": "PO-4550",
+      "supplier_id": "SUP-108",
+      "amount_eur": 4950,
+      "cost_center": "CC-110",
+      "contract_id": "CTR-2026-022",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-051",
+    "receipt_no": 51,
+    "timestamp": "2026-10-26T13:44:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4551 for €8,298.40 to Lindqvar Metallwerk (SUP-101), cost center CC-410. Quality check passed: ISO 9001 cert QC-41007 is valid. Pricing follows frame contract CTR-2026-004 at €18.40 per unit for 451 units. Budget available in CC-410.",
+    "tool_call": {
+      "po_id": "PO-4551",
+      "supplier_id": "SUP-101",
+      "amount_eur": 8298.4,
+      "cost_center": "CC-410",
+      "contract_id": "CTR-2026-004",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-052",
+    "receipt_no": 52,
+    "timestamp": "2026-10-27T13:45:00Z",
+    "agent": "procure-agent v1.8 (legacy, free-text log)",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Auto-approved PO-4552 for €6,720.00 to Tervola Electronics (SUP-106), cost center CC-410. Supplier is ISO 9001 certified (certificate QC-42290). Pricing follows frame contract CTR-2026-018 at €112.00 per unit for 60 units. CC-410 has sufficient budget for this order.",
+    "tool_call": null
+  },
+  {
+    "id": "D-053",
+    "receipt_no": 53,
+    "timestamp": "2026-10-27T14:48:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4553 for €12,800.00 to Quellbrunn Elektro KG (SUP-110), cost center CC-310. Supplier is ISO 9001 certified. Covered by frame contract CTR-2026-027. Budget available in CC-310.",
+    "tool_call": {
+      "po_id": "PO-4553",
+      "supplier_id": "SUP-110",
+      "amount_eur": 12800,
+      "cost_center": "CC-310",
+      "contract_id": "CTR-2026-027",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-054",
+    "receipt_no": 54,
+    "timestamp": "2026-10-28T12:51:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4554 for €5,632.00 to Rautio Hydraulics Oy (SUP-103), cost center CC-310. Supplier is ISO 9001 certified (certificate QC-39810). Pricing follows frame contract CTR-2026-011 at €64.00 per unit for 88 units. CC-310 has sufficient budget for this order.",
+    "tool_call": {
+      "po_id": "PO-4554",
+      "supplier_id": "SUP-103",
+      "amount_eur": 5632,
+      "cost_center": "CC-310",
+      "contract_id": "CTR-2026-011",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-055",
+    "receipt_no": 55,
+    "timestamp": "2026-10-28T09:47:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "reject_po",
+    "agent_log_status": "success",
+    "rationale": "Rejected PO-4555 (€26,000.00) from Pemberly Seals Ltd (SUP-102). Cost center CC-220 does not have enough budget left for this order.",
+    "tool_call": {
+      "po_id": "PO-4555",
+      "supplier_id": "SUP-102",
+      "amount_eur": 26000,
+      "cost_center": "CC-220",
+      "contract_id": "CTR-2026-007",
+      "iso_certified": null,
+      "budget_available": false
+    }
+  },
+  {
+    "id": "D-056",
+    "receipt_no": 56,
+    "timestamp": "2026-10-29T09:39:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4556 for €22,400.00 to Lindqvar Metallwerk (SUP-101), cost center CC-220. Quality check passed: ISO 9001 cert QC-41007 is valid. Covered by frame contract CTR-2026-004. Within the Q4 budget of CC-220.",
+    "tool_call": {
+      "po_id": "PO-4556",
+      "supplier_id": "SUP-101",
+      "amount_eur": 22400,
+      "cost_center": "CC-220",
+      "contract_id": "CTR-2026-004",
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-057",
+    "receipt_no": 57,
+    "timestamp": "2026-10-29T16:30:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "release_payment",
+    "agent_log_status": "success",
+    "rationale": "Released payment for PO-4557 for €4,700.00 to Lindqvar Metallwerk (SUP-101), cost center CC-110. Lindqvar Metallwerk holds a valid ISO 9001 certificate (QC-41007).",
+    "tool_call": {
+      "po_id": "PO-4557",
+      "supplier_id": "SUP-101",
+      "amount_eur": 4700,
+      "cost_center": "CC-110",
+      "contract_id": null,
+      "iso_certified": true,
+      "budget_available": null
+    }
+  },
+  {
+    "id": "D-058",
+    "receipt_no": 58,
+    "timestamp": "2026-10-30T11:48:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4558 for €3,900.00 to Saxwold Cables Ltd (SUP-111), cost center CC-410. Quality check passed: ISO 9001 cert QC-38125 is valid. CC-410 has sufficient budget for this order.",
+    "tool_call": {
+      "po_id": "PO-4558",
+      "supplier_id": "SUP-111",
+      "amount_eur": 3900,
+      "cost_center": "CC-410",
+      "contract_id": null,
+      "iso_certified": true,
+      "budget_available": true
+    }
+  },
+  {
+    "id": "D-059",
+    "receipt_no": 59,
+    "timestamp": "2026-10-30T15:52:00Z",
+    "agent": "procure-agent v1.8 (legacy, free-text log)",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved purchase order PO-4559 for €6,799.00 to Pemberly Seals Ltd (SUP-102), cost center CC-220. Quality check passed: ISO 9001 cert QC-41552 is valid. Pricing follows frame contract CTR-2026-007 at €2.60 per unit for 2615 units. Budget available in CC-220.",
+    "tool_call": null
+  },
+  {
+    "id": "D-060",
+    "receipt_no": 60,
+    "timestamp": "2026-10-31T10:38:00Z",
+    "agent": "procure-agent v2.3",
+    "action": "approve_po",
+    "agent_log_status": "success",
+    "rationale": "Approved PO-4560 for €8,350.00 to Weidmoor Kunststoff GmbH (SUP-105), cost center CC-310. Supplier is ISO 9001 certified (certificate QC-40211). CC-310 has sufficient budget for this order.",
+    "tool_call": {
+      "po_id": "PO-4560",
+      "supplier_id": "SUP-105",
+      "amount_eur": 8350,
+      "cost_center": "CC-310",
+      "contract_id": null,
+      "iso_certified": true,
+      "budget_available": true
+    }
+  }
+]

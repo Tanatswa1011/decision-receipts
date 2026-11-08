@@ -1,0 +1,232 @@
+[
+  {
+    "id": "CTR-2026-004",
+    "supplier_id": "SUP-101",
+    "title": "Frame agreement steel shafts – Lindqvar Metallwerk",
+    "item": "steel shafts",
+    "unit_price_eur": 18.4,
+    "valid_from": "2026-01-01",
+    "valid_until": "2026-12-31",
+    "passages": [
+      {
+        "id": "CTR-2026-004#p1",
+        "text": "This frame agreement between Kesselfeld Antriebstechnik GmbH and Lindqvar Metallwerk (SUP-101) covers steel shafts."
+      },
+      {
+        "id": "CTR-2026-004#p2",
+        "text": "The agreed unit price is EUR 18.40 per unit, fixed for the term of this agreement."
+      },
+      {
+        "id": "CTR-2026-004#p3",
+        "text": "The agreement is valid from 2026-01-01 until 2026-12-31 inclusive."
+      }
+    ]
+  },
+  {
+    "id": "CTR-2026-007",
+    "supplier_id": "SUP-102",
+    "title": "Frame agreement radial shaft seals – Pemberly Seals Ltd",
+    "item": "radial shaft seals",
+    "unit_price_eur": 2.6,
+    "valid_from": "2026-01-01",
+    "valid_until": "2026-12-31",
+    "passages": [
+      {
+        "id": "CTR-2026-007#p1",
+        "text": "This frame agreement between Kesselfeld Antriebstechnik GmbH and Pemberly Seals Ltd (SUP-102) covers radial shaft seals."
+      },
+      {
+        "id": "CTR-2026-007#p2",
+        "text": "The agreed unit price is EUR 2.60 per unit, fixed for the term of this agreement."
+      },
+      {
+        "id": "CTR-2026-007#p3",
+        "text": "The agreement is valid from 2026-01-01 until 2026-12-31 inclusive."
+      }
+    ]
+  },
+  {
+    "id": "CTR-2026-011",
+    "supplier_id": "SUP-103",
+    "title": "Frame agreement hydraulic couplings – Rautio Hydraulics Oy",
+    "item": "hydraulic couplings",
+    "unit_price_eur": 64,
+    "valid_from": "2025-07-01",
+    "valid_until": "2027-06-30",
+    "passages": [
+      {
+        "id": "CTR-2026-011#p1",
+        "text": "This frame agreement between Kesselfeld Antriebstechnik GmbH and Rautio Hydraulics Oy (SUP-103) covers hydraulic couplings."
+      },
+      {
+        "id": "CTR-2026-011#p2",
+        "text": "The agreed unit price is EUR 64.00 per unit, fixed for the term of this agreement."
+      },
+      {
+        "id": "CTR-2026-011#p3",
+        "text": "The agreement is valid from 2025-07-01 until 2027-06-30 inclusive."
+      }
+    ]
+  },
+  {
+    "id": "CTR-2026-031",
+    "supplier_id": "SUP-104",
+    "title": "Frame agreement ball bearings 6205 – Castellan Bearings S.p.A.",
+    "item": "ball bearings 6205",
+    "unit_price_eur": 42,
+    "valid_from": "2026-01-01",
+    "valid_until": "2026-12-31",
+    "passages": [
+      {
+        "id": "CTR-2026-031#p1",
+        "text": "This frame agreement between Kesselfeld Antriebstechnik GmbH and Castellan Bearings S.p.A. (SUP-104) covers ball bearings 6205."
+      },
+      {
+        "id": "CTR-2026-031#p2",
+        "text": "The agreed unit price is EUR 42.00 per unit, fixed for the term of this agreement."
+      },
+      {
+        "id": "CTR-2026-031#p3",
+        "text": "The agreement is valid from 2026-01-01 until 2026-12-31 inclusive."
+      }
+    ]
+  },
+  {
+    "id": "CTR-2026-015",
+    "supplier_id": "SUP-105",
+    "title": "Frame agreement polymer housings – Weidmoor Kunststoff GmbH",
+    "item": "polymer housings",
+    "unit_price_eur": 7.25,
+    "valid_from": "2026-03-01",
+    "valid_until": "2027-02-28",
+    "passages": [
+      {
+        "id": "CTR-2026-015#p1",
+        "text": "This frame agreement between Kesselfeld Antriebstechnik GmbH and Weidmoor Kunststoff GmbH (SUP-105) covers polymer housings."
+      },
+      {
+        "id": "CTR-2026-015#p2",
+        "text": "The agreed unit price is EUR 7.25 per unit, fixed for the term of this agreement."
+      },
+      {
+        "id": "CTR-2026-015#p3",
+        "text": "The agreement is valid from 2026-03-01 until 2027-02-28 inclusive."
+      }
+    ]
+  },
+  {
+    "id": "CTR-2026-018",
+    "supplier_id": "SUP-106",
+    "title": "Frame agreement motor controllers – Tervola Electronics",
+    "item": "motor controllers",
+    "unit_price_eur": 112,
+    "valid_from": "2026-01-01",
+    "valid_until": "2026-12-31",
+    "passages": [
+      {
+        "id": "CTR-2026-018#p1",
+        "text": "This frame agreement between Kesselfeld Antriebstechnik GmbH and Tervola Electronics (SUP-106) covers motor controllers."
+      },
+      {
+        "id": "CTR-2026-018#p2",
+        "text": "The agreed unit price is EUR 112.00 per unit, fixed for the term of this agreement."
+      },
+      {
+        "id": "CTR-2026-018#p3",
+        "text": "The agreement is valid from 2026-01-01 until 2026-12-31 inclusive."
+      }
+    ]
+  },
+  {
+    "id": "CTR-2026-022",
+    "supplier_id": "SUP-108",
+    "title": "Frame agreement anti-corrosion coating – Ilvento Coatings S.r.l.",
+    "item": "anti-corrosion coating",
+    "unit_price_eur": 31.5,
+    "valid_from": "2026-02-01",
+    "valid_until": "2027-01-31",
+    "passages": [
+      {
+        "id": "CTR-2026-022#p1",
+        "text": "This frame agreement between Kesselfeld Antriebstechnik GmbH and Ilvento Coatings S.r.l. (SUP-108) covers anti-corrosion coating."
+      },
+      {
+        "id": "CTR-2026-022#p2",
+        "text": "The agreed unit price is EUR 31.50 per unit, fixed for the term of this agreement."
+      },
+      {
+        "id": "CTR-2026-022#p3",
+        "text": "The agreement is valid from 2026-02-01 until 2027-01-31 inclusive."
+      }
+    ]
+  },
+  {
+    "id": "CTR-2025-040",
+    "supplier_id": "SUP-112",
+    "title": "Frame agreement torque wrenches – Fenwright Tools Ltd",
+    "item": "torque wrenches",
+    "unit_price_eur": 89,
+    "valid_from": "2025-10-18",
+    "valid_until": "2026-10-17",
+    "passages": [
+      {
+        "id": "CTR-2025-040#p1",
+        "text": "This frame agreement between Kesselfeld Antriebstechnik GmbH and Fenwright Tools Ltd (SUP-112) covers torque wrenches."
+      },
+      {
+        "id": "CTR-2025-040#p2",
+        "text": "The agreed unit price is EUR 89.00 per unit, fixed for the term of this agreement."
+      },
+      {
+        "id": "CTR-2025-040#p3",
+        "text": "The agreement is valid from 2025-10-18 until 2026-10-17 inclusive."
+      }
+    ]
+  },
+  {
+    "id": "CTR-2025-036",
+    "supplier_id": "SUP-111",
+    "title": "Frame agreement shielded cables – Saxwold Cables Ltd",
+    "item": "shielded cables",
+    "unit_price_eur": 4.1,
+    "valid_from": "2025-10-01",
+    "valid_until": "2026-09-30",
+    "passages": [
+      {
+        "id": "CTR-2025-036#p1",
+        "text": "This frame agreement between Kesselfeld Antriebstechnik GmbH and Saxwold Cables Ltd (SUP-111) covers shielded cables."
+      },
+      {
+        "id": "CTR-2025-036#p2",
+        "text": "The agreed unit price is EUR 4.10 per unit, fixed for the term of this agreement."
+      },
+      {
+        "id": "CTR-2025-036#p3",
+        "text": "The agreement is valid from 2025-10-01 until 2026-09-30 inclusive."
+      }
+    ]
+  },
+  {
+    "id": "CTR-2026-027",
+    "supplier_id": "SUP-110",
+    "title": "Frame agreement control cabinets – Quellbrunn Elektro KG",
+    "item": "control cabinets",
+    "unit_price_eur": 640,
+    "valid_from": "2026-01-01",
+    "valid_until": "2026-12-31",
+    "passages": [
+      {
+        "id": "CTR-2026-027#p1",
+        "text": "This frame agreement between Kesselfeld Antriebstechnik GmbH and Quellbrunn Elektro KG (SUP-110) covers control cabinets."
+      },
+      {
+        "id": "CTR-2026-027#p2",
+        "text": "The agreed unit price is EUR 640.00 per unit, fixed for the term of this agreement."
+      },
+      {
+        "id": "CTR-2026-027#p3",
+        "text": "The agreement is valid from 2026-01-01 until 2026-12-31 inclusive."
+      }
+    ]
+  }
+]

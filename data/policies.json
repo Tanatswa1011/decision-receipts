@@ -1,0 +1,9 @@
+[
+  {
+    "id": "POL-APPROVAL-01",
+    "title": "Single-approval limit",
+    "text": "An agent may approve a purchase order up to EUR 10,000 without human sign-off. Splitting one requirement into several orders to stay under this limit is not allowed. Orders to the same supplier and cost center within 72 hours are treated as one requirement.",
+    "limit_eur": 10000,
+    "window_hours": 72
+  }
+]

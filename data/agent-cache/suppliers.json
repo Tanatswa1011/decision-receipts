@@ -1,0 +1,98 @@
+[
+  {
+    "id": "SUP-101",
+    "name": "Lindqvar Metallwerk",
+    "approved_vendor": true,
+    "iso_certified": true,
+    "cert_id": "QC-41007",
+    "cached_on": "2026-01-15"
+  },
+  {
+    "id": "SUP-102",
+    "name": "Pemberly Seals Ltd",
+    "approved_vendor": true,
+    "iso_certified": true,
+    "cert_id": "QC-41552",
+    "cached_on": "2026-01-15"
+  },
+  {
+    "id": "SUP-103",
+    "name": "Rautio Hydraulics Oy",
+    "approved_vendor": true,
+    "iso_certified": true,
+    "cert_id": "QC-39810",
+    "cached_on": "2026-01-15"
+  },
+  {
+    "id": "SUP-104",
+    "name": "Castellan Bearings S.p.A.",
+    "approved_vendor": true,
+    "iso_certified": true,
+    "cert_id": "QC-55120",
+    "cached_on": "2026-01-15"
+  },
+  {
+    "id": "SUP-105",
+    "name": "Weidmoor Kunststoff GmbH",
+    "approved_vendor": true,
+    "iso_certified": true,
+    "cert_id": "QC-40211",
+    "cached_on": "2026-01-15"
+  },
+  {
+    "id": "SUP-106",
+    "name": "Tervola Electronics",
+    "approved_vendor": true,
+    "iso_certified": true,
+    "cert_id": "QC-42290",
+    "cached_on": "2026-01-15"
+  },
+  {
+    "id": "SUP-107",
+    "name": "Bramcote Fasteners Ltd",
+    "approved_vendor": true,
+    "iso_certified": true,
+    "cert_id": "QC-37761",
+    "cached_on": "2026-01-15"
+  },
+  {
+    "id": "SUP-108",
+    "name": "Ilvento Coatings S.r.l.",
+    "approved_vendor": true,
+    "iso_certified": true,
+    "cert_id": "QC-43018",
+    "cached_on": "2026-01-15"
+  },
+  {
+    "id": "SUP-109",
+    "name": "Marhaus Antriebe GmbH",
+    "approved_vendor": true,
+    "iso_certified": true,
+    "cert_id": "QC-38804",
+    "cached_on": "2026-01-15"
+  },
+  {
+    "id": "SUP-110",
+    "name": "Quellbrunn Elektro KG",
+    "approved_vendor": true,
+    "iso_certified": false,
+    "cert_id": null,
+    "cached_on": "2026-01-15"
+  },
+  {
+    "id": "SUP-111",
+    "name": "Saxwold Cables Ltd",
+    "approved_vendor": true,
+    "iso_certified": true,
+    "cert_id": "QC-38125",
+    "cached_on": "2026-01-15"
+  },
+  {
+    "id": "SUP-112",
+    "name": "Fenwright Tools Ltd",
+    "approved_vendor": true,
+    "iso_certified": true,
+    "cert_id": "QC-38000",
+    "cached_on": "2026-01-15"
+  }
+]

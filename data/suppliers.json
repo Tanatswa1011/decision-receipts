@@ -1,0 +1,130 @@
+[
+  {
+    "id": "SUP-101",
+    "name": "Lindqvar Metallwerk",
+    "country": "SE",
+    "approved_vendor": true,
+    "iso_9001": {
+      "cert_id": "QC-41007",
+      "issued_on": "2024-03-01",
+      "expires_on": "2027-02-28"
+    }
+  },
+  {
+    "id": "SUP-102",
+    "name": "Pemberly Seals Ltd",
+    "country": "GB",
+    "approved_vendor": true,
+    "iso_9001": {
+      "cert_id": "QC-41552",
+      "issued_on": "2025-01-15",
+      "expires_on": "2028-01-14"
+    }
+  },
+  {
+    "id": "SUP-103",
+    "name": "Rautio Hydraulics Oy",
+    "country": "FI",
+    "approved_vendor": true,
+    "iso_9001": {
+      "cert_id": "QC-39810",
+      "issued_on": "2024-06-10",
+      "expires_on": "2027-06-09"
+    }
+  },
+  {
+    "id": "SUP-104",
+    "name": "Castellan Bearings S.p.A.",
+    "country": "IT",
+    "approved_vendor": true,
+    "iso_9001": {
+      "cert_id": "QC-55120",
+      "issued_on": "2023-02-08",
+      "expires_on": "2026-02-07"
+    }
+  },
+  {
+    "id": "SUP-105",
+    "name": "Weidmoor Kunststoff GmbH",
+    "country": "DE",
+    "approved_vendor": true,
+    "iso_9001": {
+      "cert_id": "QC-40211",
+      "issued_on": "2025-04-01",
+      "expires_on": "2028-03-31"
+    }
+  },
+  {
+    "id": "SUP-106",
+    "name": "Tervola Electronics",
+    "country": "FI",
+    "approved_vendor": true,
+    "iso_9001": {
+      "cert_id": "QC-42290",
+      "issued_on": "2024-09-01",
+      "expires_on": "2027-08-31"
+    }
+  },
+  {
+    "id": "SUP-107",
+    "name": "Bramcote Fasteners Ltd",
+    "country": "GB",
+    "approved_vendor": true,
+    "iso_9001": {
+      "cert_id": "QC-37761",
+      "issued_on": "2023-05-11",
+      "expires_on": "2026-05-10"
+    }
+  },
+  {
+    "id": "SUP-108",
+    "name": "Ilvento Coatings S.r.l.",
+    "country": "IT",
+    "approved_vendor": true,
+    "iso_9001": {
+      "cert_id": "QC-43018",
+      "issued_on": "2025-07-01",
+      "expires_on": "2028-06-30"
+    }
+  },
+  {
+    "id": "SUP-109",
+    "name": "Marhaus Antriebe GmbH",
+    "country": "DE",
+    "approved_vendor": true,
+    "iso_9001": {
+      "cert_id": "QC-38804",
+      "issued_on": "2023-08-17",
+      "expires_on": "2026-08-16"
+    }
+  },
+  {
+    "id": "SUP-110",
+    "name": "Quellbrunn Elektro KG",
+    "country": "DE",
+    "approved_vendor": true,
+    "iso_9001": null
+  },
+  {
+    "id": "SUP-111",
+    "name": "Saxwold Cables Ltd",
+    "country": "GB",
+    "approved_vendor": true,
+    "iso_9001": {
+      "cert_id": "QC-38125",
+      "issued_on": "2023-10-28",
+      "expires_on": "2026-10-27"
+    }
+  },
+  {
+    "id": "SUP-112",
+    "name": "Fenwright Tools Ltd",
+    "country": "GB",
+    "approved_vendor": true,
+    "iso_9001": {
+      "cert_id": "QC-38000",
+      "issued_on": "2023-10-08",
+      "expires_on": "2026-10-07"
+    }
+  }
+]

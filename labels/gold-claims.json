@@ -1,0 +1,3264 @@
+[
+  {
+    "decision_id": "D-001",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4501"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4501",
+          "amount_eur": 6050
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4501",
+          "supplier_id": "SUP-106"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-106",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 6050,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-002",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4502"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4502",
+          "amount_eur": 8900
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4502",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-102",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 8900,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-003",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4503"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4503",
+          "amount_eur": 8600
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4503",
+          "supplier_id": "SUP-105"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-105",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-015"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-015"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-015",
+          "supplier_id": "SUP-105"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 8600,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-004",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4504"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4504",
+          "amount_eur": 9100
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4504",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-220",
+          "amount_eur": 9100,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-005",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4505"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4505",
+          "amount_eur": 6500
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4505",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-101",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-004"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-004"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-004",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 6500,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-006",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4506"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4506",
+          "amount_eur": 1500
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4506",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-103",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-110",
+          "amount_eur": 1500,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-007",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4507"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4507",
+          "amount_eur": 6900
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4507",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-022",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 6900,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-008",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4508"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4508",
+          "amount_eur": 4100
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4508",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-103",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "supplier_id": "SUP-103"
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-009",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4509"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4509",
+          "amount_eur": 3560
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4509",
+          "supplier_id": "SUP-112"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-112",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-220",
+          "amount_eur": 3560,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-010",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4510"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4510",
+          "amount_eur": 3136
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4510",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-103",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "unit_price_eur": 64
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 3136,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-011",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4511"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4511",
+          "amount_eur": 9450
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4511",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-022",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-022",
+          "unit_price_eur": 31.5
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-110",
+          "amount_eur": 9450,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-012",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4512"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4512",
+          "amount_eur": 18500
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4512",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-102",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-220",
+          "amount_eur": 18500,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-013",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4513"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4513",
+          "amount_eur": 6784
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4513",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-103",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "unit_price_eur": 64
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-110",
+          "amount_eur": 6784,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-014",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4514"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4514",
+          "amount_eur": 8400
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4514",
+          "supplier_id": "SUP-104"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-104",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-031"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-031"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-031",
+          "supplier_id": "SUP-104"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-031",
+          "unit_price_eur": 42
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 8400,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-015",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4515"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4515",
+          "amount_eur": 2800
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4515",
+          "supplier_id": "SUP-106"
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-018"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-018"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-018",
+          "supplier_id": "SUP-106"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-018",
+          "unit_price_eur": 112
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 2800,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-016",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4516"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4516",
+          "amount_eur": 8400
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4516",
+          "supplier_id": "SUP-105"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-105",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-015"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-015"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-015",
+          "supplier_id": "SUP-105"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 8400,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-017",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4517"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4517",
+          "amount_eur": 3099.2
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4517",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-102",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "unit_price_eur": 2.6
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 3099.2,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-018",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4518"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4518",
+          "amount_eur": 9800
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4518",
+          "supplier_id": "SUP-106"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-106",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-018"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-018"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-018",
+          "supplier_id": "SUP-106"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 9800,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-019",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4519"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4519",
+          "amount_eur": 9750
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4519",
+          "supplier_id": "SUP-106"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-106",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-018"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-018"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-018",
+          "supplier_id": "SUP-106"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 9750,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-020",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4520"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4520",
+          "amount_eur": 3150
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4520",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-103",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 3150,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-021",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4521"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4521",
+          "amount_eur": 3244.5
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4521",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-108",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-022",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-022",
+          "unit_price_eur": 31.5
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-022",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4522"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4522",
+          "amount_eur": 6900
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4522",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-103",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-099"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-099"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-099",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-110",
+          "amount_eur": 6900,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-023",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4523"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4523",
+          "amount_eur": 4950
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4523",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-108",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-022",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 4950,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-024",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4524"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4524",
+          "amount_eur": 12750
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4524",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-101",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-004"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-004"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-004",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 12750,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-025",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4525"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4525",
+          "amount_eur": 2400
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4525",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-108",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-022",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-110",
+          "amount_eur": 2400,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-026",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4526"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4526",
+          "amount_eur": 5200
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4526",
+          "supplier_id": "SUP-107"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-107",
+          "claimed_valid": false
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-027",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4527"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4527",
+          "amount_eur": 31000
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4527",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-102",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-220",
+          "amount_eur": 31000,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-028",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4528"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4528",
+          "amount_eur": 4650
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4528",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-103",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 4650,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-029",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4529"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4529",
+          "amount_eur": 2249
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4529",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-102",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "unit_price_eur": 2.6
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 2249,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-030",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4530"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4530",
+          "amount_eur": 5100
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4530",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-103",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-110",
+          "amount_eur": 5100,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-031",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4531"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4531",
+          "amount_eur": 5600
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4531",
+          "supplier_id": "SUP-109"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-109",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-110",
+          "amount_eur": 5600,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-032",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4532"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4532",
+          "amount_eur": 5759.2
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4532",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-101",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-004"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-004"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-004",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-004",
+          "unit_price_eur": 18.4
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 5759.2,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-033",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4533"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4533",
+          "amount_eur": 2670
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4533",
+          "supplier_id": "SUP-112"
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2025-040"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2025-040"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2025-040",
+          "supplier_id": "SUP-112"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2025-040",
+          "unit_price_eur": 89
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-220",
+          "amount_eur": 2670,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-034",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4534"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4534",
+          "amount_eur": 8700
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4534",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-102",
+          "claimed_valid": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-035",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4535"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4535",
+          "amount_eur": 4350
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4535",
+          "supplier_id": "SUP-105"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-105",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-061"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-061"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-061",
+          "supplier_id": "SUP-105"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 4350,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-036",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4536"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4536",
+          "amount_eur": 8400
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4536",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-103",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 8400,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-037",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4537"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4537",
+          "amount_eur": 2950
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4537",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 2950,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-038",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4538"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4538",
+          "amount_eur": 7750
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4538",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-102",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "unit_price_eur": 3.1
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 7750,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-039",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4539"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4539",
+          "amount_eur": 9300
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4539",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-101",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-004"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-004"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-004",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-110",
+          "amount_eur": 9300,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-040",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4540"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4540",
+          "amount_eur": 6550
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4540",
+          "supplier_id": "SUP-106"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-106",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-018"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-018"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-018",
+          "supplier_id": "SUP-106"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 6550,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-041",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4541"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4541",
+          "amount_eur": 14200
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4541",
+          "supplier_id": "SUP-110"
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-027"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-027"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-027",
+          "supplier_id": "SUP-110"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-520",
+          "amount_eur": 14200,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-042",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4542"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4542",
+          "amount_eur": 2304
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4542",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-103",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "unit_price_eur": 64
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-110",
+          "amount_eur": 2304,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-043",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4543"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4543",
+          "amount_eur": 7300
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4543",
+          "supplier_id": "SUP-109"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-109",
+          "claimed_valid": false
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-044",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4544"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4544",
+          "amount_eur": 46200
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4544",
+          "supplier_id": "SUP-107"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-107",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 46200,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-045",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4545"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4545",
+          "amount_eur": 1354.5
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4545",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-108",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-022",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-022",
+          "unit_price_eur": 31.5
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 1354.5,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-046",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4546"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4546",
+          "amount_eur": 5800.6
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4546",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "unit_price_eur": 2.6
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 5800.6,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-047",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4547"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4547",
+          "amount_eur": 6150
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4547",
+          "supplier_id": "SUP-111"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-111",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2025-036"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2025-036"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2025-036",
+          "supplier_id": "SUP-111"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2025-036",
+          "unit_price_eur": 4.1
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 6150,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-048",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4548"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4548",
+          "amount_eur": 9500
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4548",
+          "supplier_id": "SUP-105"
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-015"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-015"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-015",
+          "supplier_id": "SUP-105"
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-049",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4549"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4549",
+          "amount_eur": 4200
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4549",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-101",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-110",
+          "amount_eur": 4200,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-050",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4550"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4550",
+          "amount_eur": 4950
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4550",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-108",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-022"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-022",
+          "supplier_id": "SUP-108"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-110",
+          "amount_eur": 4950,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-051",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4551"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4551",
+          "amount_eur": 8298.4
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4551",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-101",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-004"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-004"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-004",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-004",
+          "unit_price_eur": 18.4
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 8298.4,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-052",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4552"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4552",
+          "amount_eur": 6720
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4552",
+          "supplier_id": "SUP-106"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-106",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-018"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-018"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-018",
+          "supplier_id": "SUP-106"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-018",
+          "unit_price_eur": 112
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 6720,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-053",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4553"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4553",
+          "amount_eur": 12800
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4553",
+          "supplier_id": "SUP-110"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-110",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-027"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-027"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-027",
+          "supplier_id": "SUP-110"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 12800,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-054",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4554"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4554",
+          "amount_eur": 5632
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4554",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-103",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-011"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "supplier_id": "SUP-103"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-011",
+          "unit_price_eur": 64
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 5632,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-055",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4555"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4555",
+          "amount_eur": 26000
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4555",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-220",
+          "amount_eur": 26000,
+          "claimed_available": false
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-056",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4556"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4556",
+          "amount_eur": 22400
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4556",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-101",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-004"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-004"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-004",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-220",
+          "amount_eur": 22400,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-057",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4557"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4557",
+          "amount_eur": 4700
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4557",
+          "supplier_id": "SUP-101"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-101",
+          "claimed_valid": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-058",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4558"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4558",
+          "amount_eur": 3900
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4558",
+          "supplier_id": "SUP-111"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-111",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-410",
+          "amount_eur": 3900,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-059",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4559"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4559",
+          "amount_eur": 6799
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4559",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-102",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "contract_exists",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_valid",
+        "params": {
+          "contract_id": "CTR-2026-007"
+        }
+      },
+      {
+        "type": "contract_supplier",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "supplier_id": "SUP-102"
+        }
+      },
+      {
+        "type": "contract_unit_price",
+        "params": {
+          "contract_id": "CTR-2026-007",
+          "unit_price_eur": 2.6
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-220",
+          "amount_eur": 6799,
+          "claimed_available": true
+        }
+      }
+    ]
+  },
+  {
+    "decision_id": "D-060",
+    "claims": [
+      {
+        "type": "po_exists",
+        "params": {
+          "po_id": "PO-4560"
+        }
+      },
+      {
+        "type": "po_amount",
+        "params": {
+          "po_id": "PO-4560",
+          "amount_eur": 8350
+        }
+      },
+      {
+        "type": "po_supplier",
+        "params": {
+          "po_id": "PO-4560",
+          "supplier_id": "SUP-105"
+        }
+      },
+      {
+        "type": "supplier_iso_certified",
+        "params": {
+          "supplier_id": "SUP-105",
+          "claimed_valid": true
+        }
+      },
+      {
+        "type": "budget_available",
+        "params": {
+          "cost_center": "CC-310",
+          "amount_eur": 8350,
+          "claimed_available": true
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "_note": "USD per 1M tokens, standard (non-batch) tier. Source: third-party price aggregators checked 8 Nov 2026 (calcis.dev/pricing/openai, apievangelist.com 6 Nov 2026), not OpenAI's own page. Confirm at platform.openai.com/pricing before quoting. Set eur_per_usd to show € instead of $.",
+  "eur_per_usd": null,
+  "models": {
+    "gpt-4.1-mini": { "input_usd_per_mtok": 0.40, "output_usd_per_mtok": 1.60, "source": "aggregator list price, checked 2026-11-08" },
+    "gpt-5-nano": { "input_usd_per_mtok": 0.05, "output_usd_per_mtok": 0.40, "source": "aggregator list price, checked 2026-11-08" },
+    "gpt-5-mini": { "input_usd_per_mtok": 0.25, "output_usd_per_mtok": 2.00, "source": "aggregator list price, checked 2026-11-08" }
+  }
+}

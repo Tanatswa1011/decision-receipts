@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-11-08T00:29:57.208Z",
+  "baseline": {
+    "random": {
+      "mean": 2.6637,
+      "analytic": 2.6666666666666665,
+      "trials": 10000,
+      "p_at_least_7": 0.0022
+    },
+    "amount_only_first10_bad": 8,
+    "labelled": 60,
+    "bad": 16,
+    "k": 10
+  },
+  "results": [
+    {
+      "file": "llm-openai-gpt-4.1-mini.json",
+      "mode": "llm",
+      "model": "gpt-4.1-mini",
+      "decisions": 60,
+      "flagged": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "tn": 44,
+      "precision": 1,
+      "recall": 1,
+      "missed_receipts": [],
+      "false_flag_receipts": [],
+      "by_defect": {
+        "over_approval_limit": {
+          "planted": 1,
+          "caught": 1
+        },
+        "expired_certificate": {
+          "planted": 4,
+          "caught": 4
+        },
+        "split_order": {
+          "planted": 1,
+          "caught": 1
+        },
+        "nonexistent_contract": {
+          "planted": 2,
+          "caught": 2
+        },
+        "amount_mismatch": {
+          "planted": 2,
+          "caught": 2
+        },
+        "budget_exceeded": {
+          "planted": 3,
+          "caught": 3
+        },
+        "unit_price_mismatch": {
+          "planted": 1,
+          "caught": 1
+        },
+        "expired_contract": {
+          "planted": 1,
+          "caught": 1
+        },
+        "certificate_not_on_file": {
+          "planted": 1,
+          "caught": 1
+        }
+      },
+      "unverifiable": 0,
+      "queue_first10_bad": 10,
+      "queue_first10_receipts": [
+        44,
+        27,
+        56,
+        12,
+        24,
+        41,
+        53,
+        19,
+        50,
+        14
+      ],
+      "eur_at_risk_caught": 224600,
+      "verdicts_total": 564,
+      "verdicts_by_code": 564,
+      "verdicts_by_model": 0,
+      "contradicted": 19,
+      "unsupported": 7,
+      "rejected_model_outputs": 0,
+      "rejected_model_claims": 0,
+      "extraction": {
+        "gold": 437,
+        "matched": 437,
+        "recall": 1,
+        "extra_checkable": 3,
+        "precision": 0.9931818181818182
+      },
+      "tokens": {
+        "prompt": 27725,
+        "completion": 15494
+      },
+      "tokens_per_decision": 720.3166666666667,
+      "usd_total": 0.0358804,
+      "usd_per_decision": 0.0005980066666666666,
+      "eur_per_decision": null,
+      "price_source": "aggregator list price, checked 2026-11-08",
+      "llm_latency_ms": {
+        "mean": 2018.9743649999998,
+        "p50": 2039.4109000000026,
+        "max": 3651.849
+      },
+      "verify_ms_per_decision": 0.41434166666664773
+    },
+    {
+      "file": "llm-openai-gpt-5-nano.json",
+      "mode": "llm",
+      "model": "gpt-5-nano",
+      "decisions": 60,
+      "flagged": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "tn": 44,
+      "precision": 1,
+      "recall": 1,
+      "missed_receipts": [],
+      "false_flag_receipts": [],
+      "by_defect": {
+        "over_approval_limit": {
+          "planted": 1,
+          "caught": 1
+        },
+        "expired_certificate": {
+          "planted": 4,
+          "caught": 4
+        },
+        "split_order": {
+          "planted": 1,
+          "caught": 1
+        },
+        "nonexistent_contract": {
+          "planted": 2,
+          "caught": 2
+        },
+        "amount_mismatch": {
+          "planted": 2,
+          "caught": 2
+        },
+        "budget_exceeded": {
+          "planted": 3,
+          "caught": 3
+        },
+        "unit_price_mismatch": {
+          "planted": 1,
+          "caught": 1
+        },
+        "expired_contract": {
+          "planted": 1,
+          "caught": 1
+        },
+        "certificate_not_on_file": {
+          "planted": 1,
+          "caught": 1
+        }
+      },
+      "unverifiable": 1,
+      "queue_first10_bad": 10,
+      "queue_first10_receipts": [
+        44,
+        27,
+        56,
+        12,
+        24,
+        41,
+        53,
+        19,
+        50,
+        14
+      ],
+      "eur_at_risk_caught": 224600,
+      "verdicts_total": 541,
+      "verdicts_by_code": 541,
+      "verdicts_by_model": 0,
+      "contradicted": 19,
+      "unsupported": 6,
+      "rejected_model_outputs": 2,
+      "rejected_model_claims": 0,
+      "extraction": {
+        "gold": 437,
+        "matched": 397,
+        "recall": 0.9084668192219679,
+        "extra_checkable": 0,
+        "precision": 1
+      },
+      "tokens": {
+        "prompt": 27665,
+        "completion": 263242
+      },
+      "tokens_per_decision": 4848.45,
+      "usd_total": 0.10668005,
+      "usd_per_decision": 0.0017780008333333334,
+      "eur_per_decision": null,
+      "price_source": "aggregator list price, checked 2026-11-08",
+      "llm_latency_ms": {
+        "mean": 21746.75198,
+        "p50": 21946.5969,
+        "max": 36711.89
+      },
+      "verify_ms_per_decision": 0.3810700000001816
+    },
+    {
+      "file": "offline.json",
+      "mode": "offline",
+      "model": null,
+      "decisions": 60,
+      "flagged": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 4,
+      "tn": 44,
+      "precision": 1,
+      "recall": 0.75,
+      "missed_receipts": [
+        31,
+        35,
+        38,
+        41
+      ],
+      "false_flag_receipts": [],
+      "by_defect": {
+        "over_approval_limit": {
+          "planted": 1,
+          "caught": 1
+        },
+        "expired_certificate": {
+          "planted": 4,
+          "caught": 3
+        },
+        "split_order": {
+          "planted": 1,
+          "caught": 1
+        },
+        "nonexistent_contract": {
+          "planted": 2,
+          "caught": 1
+        },
+        "amount_mismatch": {
+          "planted": 2,
+          "caught": 2
+        },
+        "budget_exceeded": {
+          "planted": 3,
+          "caught": 2
+        },
+        "unit_price_mismatch": {
+          "planted": 1,
+          "caught": 0
+        },
+        "expired_contract": {
+          "planted": 1,
+          "caught": 1
+        },
+        "certificate_not_on_file": {
+          "planted": 1,
+          "caught": 1
+        }
+      },
+      "unverifiable": 12,
+      "queue_first10_bad": 10,
+      "queue_first10_receipts": [
+        44,
+        27,
+        56,
+        12,
+        24,
+        53,
+        19,
+        50,
+        14,
+        22
+      ],
+      "eur_at_risk_caught": 192700,
+      "verdicts_total": 410,
+      "verdicts_by_code": 410,
+      "verdicts_by_model": 0,
+      "contradicted": 15,
+      "unsupported": 4,
+      "rejected_model_outputs": 0,
+      "rejected_model_claims": 0,
+      "extraction": null,
+      "tokens": null,
+      "tokens_per_decision": null,
+      "usd_total": null,
+      "usd_per_decision": null,
+      "eur_per_decision": null,
+      "price_source": null,
+      "llm_latency_ms": null,
+      "verify_ms_per_decision": 0.36218166666666607
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "BUD-CC110-2026Q4",
+    "cost_center": "CC-110",
+    "name": "Production line A",
+    "period": "2026-Q4",
+    "budget_eur": 180000,
+    "committed_eur": 96500,
+    "available_eur": 83500
+  },
+  {
+    "id": "BUD-CC220-2026Q4",
+    "cost_center": "CC-220",
+    "name": "Maintenance",
+    "period": "2026-Q4",
+    "budget_eur": 60000,
+    "committed_eur": 41500,
+    "available_eur": 18500
+  },
+  {
+    "id": "BUD-CC310-2026Q4",
+    "cost_center": "CC-310",
+    "name": "Assembly",
+    "period": "2026-Q4",
+    "budget_eur": 140000,
+    "committed_eur": 62000,
+    "available_eur": 78000
+  },
+  {
+    "id": "BUD-CC410-2026Q4",
+    "cost_center": "CC-410",
+    "name": "Drive units",
+    "period": "2026-Q4",
+    "budget_eur": 220000,
+    "committed_eur": 118000,
+    "available_eur": 102000
+  },
+  {
+    "id": "BUD-CC520-2026Q4",
+    "cost_center": "CC-520",
+    "name": "Facilities",
+    "period": "2026-Q4",
+    "budget_eur": 45000,
+    "committed_eur": 33000,
+    "available_eur": 12000
+  }
+]
