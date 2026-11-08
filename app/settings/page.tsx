@@ -7,6 +7,8 @@ import { settingsView } from "@/lib/receipts/settings";
 import { SourcesPanel } from "@/app/settings/SourcesPanel";
 import { maskedIngestKey } from "@/lib/live/ingest-key";
 import { headers } from "next/headers";
+import { DEMO_MESSAGE, PUBLIC_DEMO } from "@/lib/demo";
+import { PROVIDERS } from "@/lib/receipts/providers";
 
 export const dynamic = "force-dynamic";
 
@@ -52,6 +54,24 @@ export default async function SettingsPage({ searchParams }: { searchParams: Pro
           ) : null}
         </div>
 
+        {PUBLIC_DEMO ? (
+          <>
+            <div className="notice info">🔒 {DEMO_MESSAGE}</div>
+            <h2 style={{ margin: "22px 0 10px" }}>Supported providers (bring your own key, locally)</h2>
+            <div className="card">
+              <ul className="keylist" style={{ marginTop: 0 }}>
+                {Object.values(PROVIDERS).map((p) => (
+                  <li key={p.id}>
+                    <span>{p.label}</span>
+                    <span className="mono muted small">{p.defaultModel}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <p className="hint">Runs exist for OpenAI gpt-4.1-mini and gpt-5-nano; the header switch shows their saved results. Langdock is untested.</p>
+          </>
+        ) : (
+        <>
         <h2 style={{ margin: "22px 0 10px" }}>1 · Provider and key</h2>
         <SettingsForm keys={view.keys} activeProvider={view.active?.provider ?? null} activeModel={view.active?.model ?? null} baseUrl={view.baseUrl} />
 
@@ -65,6 +85,8 @@ export default async function SettingsPage({ searchParams }: { searchParams: Pro
           🔒 Keys stay in this machine&apos;s local server process and are never sent back to the browser; only the last 4 characters are shown.
           {view.rememberedOnDisk ? " A model key is saved in .env.local (git-ignored)." : " Model keys are written to disk only if you tick Remember."} The ingest key is stored in .env.local (git-ignored) so the replay and agent scripts can use it. A provider counts as tested only once a run of it exists. Langdock is untested.
         </p>
+        </>
+        )}
       </main>
     </>
   );

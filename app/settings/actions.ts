@@ -7,6 +7,7 @@ import { extractClaims, llmConfigFromEnv } from "@/lib/receipts/llm";
 import type { ProviderId } from "@/lib/receipts/providers";
 import { runPipeline } from "@/lib/receipts/run";
 import { applySettings, forgetKey } from "@/lib/receipts/settings";
+import { DEMO_MESSAGE, PUBLIC_DEMO } from "@/lib/demo";
 
 export type ActionState = { ok: boolean; message: string } | null;
 
@@ -16,6 +17,7 @@ function scrub(message: string): string {
 }
 
 export async function saveSettings(_prev: ActionState, form: FormData): Promise<ActionState> {
+  if (PUBLIC_DEMO) return { ok: false, message: DEMO_MESSAGE };
   try {
     applySettings({
       provider: String(form.get("provider")) as ProviderId,
@@ -32,11 +34,13 @@ export async function saveSettings(_prev: ActionState, form: FormData): Promise<
 }
 
 export async function removeKey(form: FormData): Promise<void> {
+  if (PUBLIC_DEMO) return;
   forgetKey(String(form.get("provider")) as ProviderId);
   revalidatePath("/", "layout");
 }
 
 export async function testConnection(_prev: ActionState): Promise<ActionState> {
+  if (PUBLIC_DEMO) return { ok: false, message: DEMO_MESSAGE };
   try {
     const cfg = llmConfigFromEnv();
     const decision = loadDecisions().find((d) => d.receipt_no === 14)!;
@@ -55,6 +59,7 @@ export async function testConnection(_prev: ActionState): Promise<ActionState> {
 }
 
 export async function runExtraction(_prev: ActionState): Promise<ActionState> {
+  if (PUBLIC_DEMO) return { ok: false, message: DEMO_MESSAGE };
   try {
     const { file, summary } = await runPipeline({ mode: "llm" });
     evaluateAll();

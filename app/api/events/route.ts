@@ -10,11 +10,13 @@ import { ingestEventSchema } from "@/lib/contracts/ingest-event";
 import { checkBearer } from "@/lib/live/ingest-key";
 import { receiptForRun } from "@/lib/live/adapter";
 import { appendEvent, appendLog, hasEvent } from "@/lib/live/store";
+import { PUBLIC_DEMO } from "@/lib/demo";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 export async function POST(request: Request) {
+  if (PUBLIC_DEMO) return NextResponse.json({ error: "read_only_demo", details: "Ingest is turned off in the public demo. Run the app locally to send events." }, { status: 403 });
   const started = performance.now();
   if (!checkBearer(request.headers.get("authorization"))) {
     appendLog({ outcome: "rejected", status: 401, event_id: null, run_id: null, code: "unauthorized", reason: "Missing or wrong ingest key" });

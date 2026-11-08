@@ -7,8 +7,10 @@
 import { appendFileSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { IngestEvent } from "@/lib/contracts/ingest-event";
+import { PUBLIC_DEMO } from "@/lib/demo";
 
-export const LIVE_DIR = process.env.DR_LIVE_DIR ?? join(process.cwd(), "runs", "live");
+export const LIVE_DIR =
+  process.env.DR_LIVE_DIR ?? (PUBLIC_DEMO ? join(process.cwd(), "data", "live-snapshot") : join(process.cwd(), "runs", "live"));
 const EVENTS = join(LIVE_DIR, "events.jsonl");
 const LOG = join(LIVE_DIR, "log.jsonl");
 
@@ -57,6 +59,7 @@ export function hasEvent(eventId: string): boolean {
 }
 
 export function appendEvent(event: IngestEvent): StoredEvent {
+  if (PUBLIC_DEMO) throw new Error("read-only demo");
   ensureDir();
   const stored = { received_at: new Date().toISOString(), event };
   appendFileSync(EVENTS, JSON.stringify(stored) + "\n");
@@ -64,6 +67,7 @@ export function appendEvent(event: IngestEvent): StoredEvent {
 }
 
 export function appendLog(entry: Omit<LogEntry, "at">) {
+  if (PUBLIC_DEMO) return;
   ensureDir();
   appendFileSync(LOG, JSON.stringify({ at: new Date().toISOString(), ...entry }) + "\n");
 }
@@ -84,5 +88,6 @@ export function liveStats() {
 }
 
 export function resetLive() {
+  if (PUBLIC_DEMO) return;
   if (existsSync(LIVE_DIR)) rmSync(LIVE_DIR, { recursive: true, force: true });
 }

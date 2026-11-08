@@ -7,11 +7,13 @@
 import { randomBytes, timingSafeEqual } from "node:crypto";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { PUBLIC_DEMO } from "@/lib/demo";
 
 const ENV_LOCAL = process.env.DR_ENV_LOCAL ?? join(process.cwd(), ".env.local");
 const NAME = "DR_INGEST_KEY";
 
 export function currentIngestKey(): string | null {
+  if (PUBLIC_DEMO) return null;
   if (process.env[NAME]) return process.env[NAME]!;
   if (existsSync(ENV_LOCAL)) {
     const line = readFileSync(ENV_LOCAL, "utf8").split(/\r?\n/).find((l) => l.startsWith(`${NAME}=`));
@@ -25,6 +27,7 @@ export function currentIngestKey(): string | null {
 }
 
 export function rotateIngestKey(): string {
+  if (PUBLIC_DEMO) throw new Error("read-only demo");
   const key = `dr_live_${randomBytes(24).toString("base64url")}`;
   const lines = existsSync(ENV_LOCAL) ? readFileSync(ENV_LOCAL, "utf8").split(/\r?\n/).filter((l) => l.trim() && !l.startsWith(`${NAME}=`)) : [];
   lines.push(`${NAME}=${key}`);
